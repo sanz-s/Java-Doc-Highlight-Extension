@@ -1,0 +1,23 @@
+ .toggle-color-theme-button {
+     padding: 20px 10px;
+     border-radius: 20px;
+     cursor: pointer;
+     font-size: 30px;
+     font-family: monospace;
+     color: black;
+     border: 1px solid black;
+ }
+
+ .toggle-color-theme-button.dark {
+     background-color: rgb(39, 39, 39);
+     border: 1px solid white;
+     color: white;
+ }
+
+ .toggle-color-theme-button::after {
+     content: "Light";
+ }
+
+ .toggle-color-theme-button.dark::after {
+     content: "Dark";
+ }
